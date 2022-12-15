@@ -1,11 +1,11 @@
 #include "DFSM.h"
-//Определение следующего состояния
+//Determine the next state
 DFSM::state DFSM::getState(const state currState, const symbol currSym) const {
 	if (currSym == error) return currState;
-	//Переход из текущего состояния по определенному символу
+	//Transition from the current state to a specific character
 	return matrix[currState][currSym];
 }
-//Возвращает тип обрабатываемого значения
+//Returns the type of the processed value
 DFSM::symbol DFSM::getEvent(const char sym) const {
 	if (isalpha(sym))
 		return letter;
@@ -40,7 +40,7 @@ DFSM::DFSM() : matrix(trans_matrix(7, std::vector<state>(3))) {
 	matrix[5][1] = end_realnum;
 	matrix[5][2] = state_3;
 }
-//Возвращает тип лексемы
+//Returns the token type
 type_lexeme DFSM::getTypeLex(const std::string lex) const {
 	state currState = start;
 	for (char sym : lex) {
