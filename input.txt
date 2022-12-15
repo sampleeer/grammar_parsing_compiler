@@ -1,0 +1,7 @@
+INT test () {
+INT n1p , c ;
+Double f , l ;
+a = 5 + 6 ;
+b6 = a + 9 ;
+v = 1.23;
+RETURN test ; }

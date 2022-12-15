@@ -1,0 +1,104 @@
+HASH TABLE
+
+Key=17	Keyword Return	RETURN
+Key=30	Right Braces 	}
+Key=39	Keyword Double	Double
+Key=23	Left Braces	{
+Key=9	SEMICOLON	;
+Key=7	Keyword INT	INT
+Key=8	ID	n1p
+Key=13	ID	v
+Key=25	ID	b6
+Key=26	ID	test
+Key=27	ID	a
+Key=31	ID	c
+Key=37	ID	f
+Key=49	ID	l
+Key=3	Integer number	9
+Key=51	Integer number	5
+Key=53	Integer number	6
+Key=1	Double number	1.23
+Key=32	Sum	+
+Key=28	Left Bracket	(
+Key=29	Right Bracket	)
+Key=11	Equals	=
+Key=33	Comma	,
+
+TREE
+
+FUNCTION
+*	*	*	*	*	BEGIN
+*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	ID	test
+*	*	*	*	*	*	Left Bracket	(
+*	*	*	*	*	*	Right Bracket	)
+*	*	*	*	*	*	Left Braces	{
+*	*	*	*	*	DESCRIPTION
+*	*	*	*	*	*	DESCR
+*	*	*	*	*	*	*	TYPE
+*	*	*	*	*	*	*	*	Keyword INT	INT
+*	*	*	*	*	*	*	VAR_LIST
+*	*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	*	ID	n1p
+*	*	*	*	*	*	*	*	Comma	,
+*	*	*	*	*	*	*	*	VAR_LIST
+*	*	*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	*	*	ID	c
+*	*	*	*	*	*	DESCRIPTION
+*	*	*	*	*	*	*	DESCR
+*	*	*	*	*	*	*	*	TYPE
+*	*	*	*	*	*	*	*	*	Keyword Double	Double
+*	*	*	*	*	*	*	*	VAR_LIST
+*	*	*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	*	*	ID	f
+*	*	*	*	*	*	*	*	*	Comma	,
+*	*	*	*	*	*	*	*	*	VAR_LIST
+*	*	*	*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	*	*	*	ID	l
+*	*	*	*	*	OPERATORS
+*	*	*	*	*	*	OP
+*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	ID	a
+*	*	*	*	*	*	*	Equals	=
+*	*	*	*	*	*	*	EXPR
+*	*	*	*	*	*	*	*	SIMPLE_EXPR
+*	*	*	*	*	*	*	*	*	Const
+*	*	*	*	*	*	*	*	*	*	INTNUMBER
+*	*	*	*	*	*	*	*	*	*	*	Integer number	5
+*	*	*	*	*	*	*	*	Sum	+
+*	*	*	*	*	*	*	*	EXPR
+*	*	*	*	*	*	*	*	*	SIMPLE_EXPR
+*	*	*	*	*	*	*	*	*	*	Const
+*	*	*	*	*	*	*	*	*	*	*	INTNUMBER
+*	*	*	*	*	*	*	*	*	*	*	*	Integer number	6
+*	*	*	*	*	*	OPERATORS
+*	*	*	*	*	*	*	OP
+*	*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	*	ID	b6
+*	*	*	*	*	*	*	*	Equals	=
+*	*	*	*	*	*	*	*	EXPR
+*	*	*	*	*	*	*	*	*	SIMPLE_EXPR
+*	*	*	*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	*	*	*	ID	a
+*	*	*	*	*	*	*	*	*	Sum	+
+*	*	*	*	*	*	*	*	*	EXPR
+*	*	*	*	*	*	*	*	*	*	SIMPLE_EXPR
+*	*	*	*	*	*	*	*	*	*	*	Const
+*	*	*	*	*	*	*	*	*	*	*	*	INTNUMBER
+*	*	*	*	*	*	*	*	*	*	*	*	*	Integer number	9
+*	*	*	*	*	*	*	OPERATORS
+*	*	*	*	*	*	*	*	OP
+*	*	*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	*	*	ID	v
+*	*	*	*	*	*	*	*	*	Equals	=
+*	*	*	*	*	*	*	*	*	EXPR
+*	*	*	*	*	*	*	*	*	*	SIMPLE_EXPR
+*	*	*	*	*	*	*	*	*	*	*	Const
+*	*	*	*	*	*	*	*	*	*	*	*	DOUBLENUMBER
+*	*	*	*	*	*	*	*	*	*	*	*	*	Double number	1.23
+*	*	*	*	*	END
+*	*	*	*	*	*	Keyword Return	return
+*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	ID	test
+*	*	*	*	*	*	SEMICOLON	;
+*	*	*	*	*	*	Right Braces 	}
