@@ -9,7 +9,7 @@ bool cmp(const std::pair<size_t, Lexeme>& first, const std::pair<size_t, Lexeme>
     return first.second.type() < second.second.type();
 }
 
-// Функция выводит в файл отсортированную хеш таблицу
+// The function outputs a sorted hash table to the file
 void print_hash_table_vc(std::vector<std::pair<size_t, Lexeme>>& res_to_arr, std::ofstream& fout) {
     sort(res_to_arr.begin(), res_to_arr.end(), cmp);
     for (const auto& item : res_to_arr)
@@ -17,6 +17,7 @@ void print_hash_table_vc(std::vector<std::pair<size_t, Lexeme>>& res_to_arr, std
 }
 
 int main() {
+    system("chcp 1251")
     std::ofstream fout("output.txt");
     Syntax_Analyzer par("input.txt");
 
