@@ -1,9 +1,10 @@
 #include <vector>
 #include <algorithm>
 #include "Hash_Table.h"
-#include "Lexical_Analyzer.h"
+#include "Lexical_Analyzer.h"8
 #include "Syntax_Analyzer.h"
 #include "Parse_Tree.h"
+#include "terminal.h"
 
 bool cmp(const std::pair<size_t, Lexeme>& first, const std::pair<size_t, Lexeme>& second) {
     return first.second.type() < second.second.type();
@@ -17,7 +18,6 @@ void print_hash_table_vc(std::vector<std::pair<size_t, Lexeme>>& res_to_arr, std
 }
 
 int main() {
-    system("chcp 1251")
     std::ofstream fout("output.txt");
     Syntax_Analyzer par("input.txt");
 

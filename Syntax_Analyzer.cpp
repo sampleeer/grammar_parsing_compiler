@@ -1,4 +1,4 @@
-#include "Syntax_Analyzer.h"
+п»ї#include "Syntax_Analyzer.h"
 
 //Проверка слова на лексические ошибки
 void Syntax_Analyzer::check_lexical_error(Lexeme& curr) {
