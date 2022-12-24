@@ -1,0 +1,17 @@
+# ninja log v5
+0	617	1671730318507433495	CMakeFiles/grammar_parsing_compiler.dir/Lexeme.cpp.o	2d2b7d5a8d4ba520
+0	635	1671730318525389860	CMakeFiles/grammar_parsing_compiler.dir/DFSM.cpp.o	9a5a9fa82f5d6900
+0	703	1671730318588674664	CMakeFiles/grammar_parsing_compiler.dir/Hash_Table.cpp.o	af4e934be857bef0
+1	739	1671730318630735884	CMakeFiles/grammar_parsing_compiler.dir/Parse_Tree.cpp.o	66e5b840c80a71a
+1	755	1671730318646954978	CMakeFiles/grammar_parsing_compiler.dir/Lexical_Analyzer.cpp.o	b3b962aa4de4e427
+635	902	1671730318795684259	CMakeFiles/grammar_parsing_compiler.dir/Terminal.cpp.o	6487f1f400e521cf
+619	1001	1671730318893693085	CMakeFiles/grammar_parsing_compiler.dir/Syntax_Analyzer.cpp.o	860b63a431be9184
+3	372	1671730372886198898	CMakeFiles/grammar_parsing_compiler.dir/main.cpp.o	694c23de7bc5f2d8
+372	421	1671730372936991144	grammar_parsing_compiler	d20ded15a455c9ee
+2	311	1671730383229119331	CMakeFiles/grammar_parsing_compiler.dir/main.cpp.o	694c23de7bc5f2d8
+311	345	1671730383264115594	grammar_parsing_compiler	d20ded15a455c9ee
+2	611	1671792350650661392	CMakeFiles/grammar_parsing_compiler.dir/main.cpp.o	694c23de7bc5f2d8
+611	665	1671792350707839410	grammar_parsing_compiler	d20ded15a455c9ee
+2	635	1671792502981452896	CMakeFiles/grammar_parsing_compiler.dir/Lexical_Analyzer.cpp.o	b3b962aa4de4e427
+2	635	1671792502980794464	CMakeFiles/grammar_parsing_compiler.dir/Syntax_Analyzer.cpp.o	860b63a431be9184
+635	685	1671792503036743502	grammar_parsing_compiler	d20ded15a455c9ee

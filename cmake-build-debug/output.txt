@@ -1,0 +1,46 @@
+HASH TABLE
+
+Key=3	Keyword Return	RETURN
+Key=4	Right Braces 	}
+Key=9	Left Braces	{
+Key=8	SEMICOLON	;
+Key=7	Keyword INT	INT
+Key=13	ID	a
+Key=1	ID	main
+Key=2	Integer number	1
+Key=11	Left Bracket	(
+Key=0	Right Bracket	)
+Key=12	Equals	=
+
+TREE
+
+FUNCTION
+*	*	*	*	*	BEGIN
+*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	ID	main
+*	*	*	*	*	*	Left Bracket	(
+*	*	*	*	*	*	Right Bracket	)
+*	*	*	*	*	*	Left Braces	{
+*	*	*	*	*	DESCRIPTION
+*	*	*	*	*	*	DESCR
+*	*	*	*	*	*	*	TYPE
+*	*	*	*	*	*	*	*	Keyword INT	INT
+*	*	*	*	*	*	*	VAR_LIST
+*	*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	*	ID	a
+*	*	*	*	*	OPERATORS
+*	*	*	*	*	*	OP
+*	*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	*	ID	a
+*	*	*	*	*	*	*	Equals	=
+*	*	*	*	*	*	*	EXPR
+*	*	*	*	*	*	*	*	SIMPLE_EXPR
+*	*	*	*	*	*	*	*	*	Const
+*	*	*	*	*	*	*	*	*	*	INTNUMBER
+*	*	*	*	*	*	*	*	*	*	*	Integer number	1
+*	*	*	*	*	END
+*	*	*	*	*	*	Keyword Return	return
+*	*	*	*	*	*	ID
+*	*	*	*	*	*	*	ID	a
+*	*	*	*	*	*	SEMICOLON	;
+*	*	*	*	*	*	Right Braces 	}
