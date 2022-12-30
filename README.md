@@ -1,5 +1,5 @@
 # grammar_parsing_compiler
 grammar parsing compiler using c++ 
 
+<img width="889" alt="image" src="https://user-images.githubusercontent.com/86608170/210096158-01c26c2c-3171-4701-a92b-754dc3e76c91.png">
 
-![uppeHp_opxw](https://user-images.githubusercontent.com/86608170/209808198-085888fd-5142-47e8-8c12-91449e03962c.jpeg)
